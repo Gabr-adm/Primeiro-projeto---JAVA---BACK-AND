@@ -5,15 +5,14 @@ public class DataTeste {
     public static void main(String[] args) {
 
         Data dt1 = new Data();
-        dt1.dia = 25;
-        dt1.mes = 12;
-        dt1.ano = 2026;
 
-        var dt2 = new Data();
-        dt2.dia = 2;
-        dt2.mes = 10;
-        dt2.ano = 2023;
+        var dt2 = new Data(2, 10, 2023);
 
-        System.out.printf(" %d/%d/%d " ,  dt2.dia , dt2.mes , dt2.ano);
+
+        String formatacao1 = dt1.obterFormataçãoData();
+        String formatacao2 = dt2.obterFormataçãoData();
+        String resultado = (formatacao1 + formatacao2);
+
+        System.out.println(resultado);
     }
 }

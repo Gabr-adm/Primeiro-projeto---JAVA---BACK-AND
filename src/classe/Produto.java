@@ -14,10 +14,6 @@ public class Produto {
         nome = nomeInicial;
     }
     Produto(String nome, double preco, double desconto) {
-      this.preco = preco;
-       this.nome = nome;
-     this.desconto = desconto;
-
      this.nome = "Carne";
      this.preco = 81.50;
      this.desconto = 0.25;

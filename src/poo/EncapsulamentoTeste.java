@@ -6,6 +6,7 @@ public class EncapsulamentoTeste {
 
     public static void main(String[] args) {
 
+
         Encapsulamento e1 = new Encapsulamento();
         Scanner entrada = new Scanner(System.in);
 
@@ -29,15 +30,13 @@ public class EncapsulamentoTeste {
 
         System.out.println("\nDigite quanto você quer depositar: ");
         e1.depositar(entrada.nextDouble());
-        System.out.println("Saldo: " + e1.getSaldo());
+        System.out.println("\nDados da conta:");
+        System.out.println("Nome: " + e1.nome + "\nNúmero da conta: " + e1.getConta() + "\nSaldo: " + e1.getSaldo());
         System.out.println("\nDigite quanto você quer sacar: ");
         e1.sacar(entrada.nextDouble());
 
-        System.out.println("Saldo: " + e1.getSaldo());
-
-
-        System.out.println("\nNome: " + e1.nome);
-        System.out.println("Saldo: R$" + e1.getSaldo());
+        System.out.println("\nDados da conta:");
+        System.out.println("Nome: " + e1.nome + "\nNúmero da conta: " + e1.getConta() + "\nSaldo: " + e1.getSaldo());
 
         entrada.close();
 

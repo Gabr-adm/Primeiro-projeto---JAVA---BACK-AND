@@ -50,6 +50,7 @@ public class Product {
                 String.format("%.2f", preco) + ", "
                 + quantidade + "Total: $ "
                 + String.format("%.2f", precoTotal());
+
     }
 
 }

@@ -2,33 +2,26 @@ package poo;
 
 public class Quarto {
 
-    private static String nome;
-    private static String email;
-
-
-    public static String getNome() {
-        return nome;
-    }
-
-    public static void setNome(String nome) {
-        Quarto.nome = nome;
-    }
-
-    public static String getEmail() {
-        return email;
-    }
-
-    public static void setEmail(String email) {
-        Quarto.email = email;
-    }
-
-    Quarto(){
-    }
+    private String nome;
+    private String email;
 
     public Quarto(String nome, String email){
         this.nome = nome;
         this.email = email;
     }
+
+
+    public  String getNome() {
+        return nome;
+    }
+
+
+
+    public String getEmail() {
+        return email;
+    }
+
+
 
     @Override
     public String toString() {

@@ -8,7 +8,7 @@ public class Estudantes {
 
         Scanner sc = new Scanner(System.in);
 
-        Quarto[] vetor = new Quarto[11];
+        Quarto[] vetor = new Quarto[10];
 
         System.out.println("Digite quantas reservas serão feitas: ");
         int n = sc.nextInt();
@@ -28,10 +28,14 @@ public class Estudantes {
 
             vetor[numeroDoQuarto] = new Quarto(nome, email);
         }
+
         System.out.println("Reservas: ");
-        for (int i = 1; i<11; i++){
-            if (vetor[i] != null)
-            System.out.println(i + ": " + vetor[i]);
+        for (int i = 1; i<10; i++){
+            if (vetor[i] != null){
+                System.out.println(i + ": " + vetor[i]);
+            } else {
+                System.out.println(i + ": " + "vazio. ");
+            }
         }
     }
 }

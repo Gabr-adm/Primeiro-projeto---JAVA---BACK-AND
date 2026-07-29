@@ -2,6 +2,7 @@ package poo;
 
 public class Quarto {
 
+
     private String nome;
     private String email;
 

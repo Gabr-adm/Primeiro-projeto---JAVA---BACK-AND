@@ -24,6 +24,7 @@ public class FuncionariosTeste {
             int id = sc.nextInt();
             sc.nextLine();
 
+
             System.out.println("Nome: ");
             String nome = sc.nextLine();
 
@@ -48,6 +49,8 @@ public class FuncionariosTeste {
             if(buscarId == funcionario.getId()){
                 escolhido = funcionario;
                 break;
+            } else {
+                System.out.println("Esse funcionário não existe! ");
             }
         }
         if (escolhido != null){
@@ -55,7 +58,7 @@ public class FuncionariosTeste {
             double aumento = sc.nextInt();
             escolhido.aumentarSalario(aumento);
             System.out.println("Salário do funcionário " + escolhido.getNome() + " foi atualizado.");
-            System.out.println("Salário atual: " + escolhido.getSalario());
+            System.out.println("Salário atual: R$" + escolhido.getSalario());
 
         }
 

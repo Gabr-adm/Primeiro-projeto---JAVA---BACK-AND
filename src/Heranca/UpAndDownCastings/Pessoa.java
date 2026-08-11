@@ -1,4 +1,4 @@
-package Heranca.SerHumano;
+package Heranca.UpAndDownCastings;
 
 public class Pessoa extends SerHumano{
 

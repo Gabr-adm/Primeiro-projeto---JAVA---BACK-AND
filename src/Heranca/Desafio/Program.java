@@ -53,6 +53,7 @@ public class Program {
             System.out.println("\n");
             System.out.println(produto.etiqueta());
         }
+        System.out.println("Deu tudo certo, amém!");
     }
 
 }

@@ -44,7 +44,6 @@ public class Program {
                 System.out.println("Digite a data de fabricação (dd/MM/yyyy): ");
                 String entrada = sc.nextLine();
                 Date dataDeFabricacao = fmt.parse(entrada);
-                fmt.format(dataDeFabricacao);
                 list.add(new ProdutoUsado(nome, preco, dataDeFabricacao));
             } else {
                 list.add(new Produto(nome, preco));

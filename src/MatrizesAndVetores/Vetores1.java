@@ -1,6 +1,6 @@
 package testing;
 
-public class Vetores {
+public class Vetores1 {
 
     private String nome;
     private double preco;
@@ -21,7 +21,7 @@ public class Vetores {
         this.preco = preco;
     }
 
-    public Vetores(String nome, double preco){
+    public Vetores1(String nome, double preco){
         this.nome = nome;
         this.preco = preco;
 

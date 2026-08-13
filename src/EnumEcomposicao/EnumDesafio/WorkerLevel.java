@@ -1,4 +1,4 @@
-package Trabalho;
+package EnumEcomposicao.EnumDesafio;
 
 public enum WorkerLevel {
 

@@ -21,7 +21,7 @@ public class RentalService {
 
         double basicPayment;
         if (hours <= 12.0){
-            basicPayment = pricePerDay * Math.ceil(hours);
+            basicPayment = pricePerHour * Math.ceil(hours);
         }
         else{
             basicPayment = pricePerDay * Math.ceil(hours / 24);

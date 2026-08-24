@@ -1,4 +1,4 @@
-package Interfaces.ProblemPart1;
+package Interfaces.Problem;
 
 import java.time.LocalDateTime;
 

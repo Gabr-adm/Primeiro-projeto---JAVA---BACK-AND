@@ -1,7 +1,6 @@
 package Interfaces.Exercicio;
 
-public class PaypalSerice implements ServicoDePagamento{
-
+public class PaypalService implements ServicoDePagamento{
 
     @Override
     public double taxaDePagamento(double quantidadeParcelas) {

@@ -1,11 +1,9 @@
 package Interfaces.Exercicio;
 
 import java.text.ParseException;
-import java.text.SimpleDateFormat;
 
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
-import java.util.Date;
 
 import java.util.Scanner;
 
@@ -31,7 +29,7 @@ public class Program {
         System.out.println("Quantas vezes?: ");
         int n = sc.nextInt();
 
-        ServicoContratado servicoContratado = new ServicoContratado(new PaypalSerice() );
+        ServicoContratado servicoContratado = new ServicoContratado(new PaypalService() );
 
         servicoContratado.processamentoContrato(obj, n);
 
@@ -39,10 +37,5 @@ public class Program {
         for (Parcela parcelas: obj.getParcelas()){
             System.out.println(parcelas);
         }
-
-
-
-
-
     }
 }

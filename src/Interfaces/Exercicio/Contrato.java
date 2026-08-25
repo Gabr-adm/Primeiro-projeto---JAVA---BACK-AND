@@ -16,7 +16,6 @@ public class Contrato {
     public Contrato(){
     }
 
-
     public Contrato(Integer numeroContrato, LocalDate data, Double valorTotal) {
         this.numeroContrato = numeroContrato;
         this.data = data;

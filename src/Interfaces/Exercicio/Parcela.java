@@ -1,9 +1,7 @@
 package Interfaces.Exercicio;
 
-import java.text.SimpleDateFormat;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
-import java.util.Date;
 
 public class Parcela {
 
@@ -11,8 +9,6 @@ public class Parcela {
     private Double quantia;
 
     private DateTimeFormatter fmt = DateTimeFormatter.ofPattern("dd/MM/yyyy");
-
-    Contrato contrato;
 
     public Parcela(LocalDate dataVencimento, Double quantia) {
         this.dataVencimento = dataVencimento;
@@ -34,9 +30,9 @@ public class Parcela {
     public void setQuantia(Double quantia) {
         this.quantia = quantia;
     }
+
     @Override
     public String toString(){
         return dataVencimento.format(fmt) + " - " + String.format("%.2f", quantia);
     }
-
 }

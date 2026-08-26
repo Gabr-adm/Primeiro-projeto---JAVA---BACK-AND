@@ -1,5 +1,6 @@
 package Roadpmap.ExerciciosNv1;
 
+import java.util.Calendar;
 import java.util.Random;
 import java.util.Scanner;
 
@@ -33,6 +34,7 @@ public class Ex2Sorteio {
                 break;
             }
         }
+
         System.out.println("Você tentou " + contador + " vezes até acertar.");
 
 

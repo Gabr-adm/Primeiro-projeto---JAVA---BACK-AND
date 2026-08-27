@@ -2,7 +2,7 @@ package Roadpmap.ExerciciosNv1;
 
 import java.util.Scanner;
 
-public class Ex8Encriptacao {
+public class Exe8Encriptacao {
 
     public static void main(String[] args) {
 

@@ -1,10 +1,9 @@
 package Roadpmap.ExerciciosNv1;
 
-import java.util.Calendar;
 import java.util.Random;
 import java.util.Scanner;
 
-public class Ex2Sorteio {
+public class Exe2Sorteio {
 
     public static void main(String[] args) {
 

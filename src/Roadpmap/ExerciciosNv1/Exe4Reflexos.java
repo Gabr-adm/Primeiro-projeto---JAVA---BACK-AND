@@ -4,7 +4,7 @@ import java.util.Calendar;
 import java.util.Random;
 import java.util.Scanner;
 
-public class Ex4Reflexos {
+public class Exe4Reflexos {
 
     public static void main(String[] args) throws InterruptedException {
 

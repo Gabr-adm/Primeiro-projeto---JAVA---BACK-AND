@@ -1,10 +1,9 @@
 package Roadpmap.ExerciciosNv1;
 
-import java.lang.reflect.Array;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class Ex3Permutacao {
+public class Exe3Permutacao {
 
     public static void main(String[] args) {
 

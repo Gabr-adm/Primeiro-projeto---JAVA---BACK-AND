@@ -2,7 +2,7 @@ package Roadpmap.ExerciciosNv1;
 
 import java.util.Scanner;
 
-public class Ex1Primos {
+public class Exe1Primos {
 
     public static void main(String[] args) {
 

@@ -1,4 +1,4 @@
-package Roadpmap.ExerciciosNv1.Exe9Array.Exe10Array;
+package Roadpmap.ExerciciosNv1.Exe10Array;
 
 import java.util.ArrayList;
 import java.util.List;

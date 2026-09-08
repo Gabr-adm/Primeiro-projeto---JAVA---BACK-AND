@@ -56,9 +56,18 @@ public class Circle extends JPanel {
         }
     }
 
+    //criado um nome para a classe MouseAdapter
+    private class InnerMouseAdapter extends MouseAdapter{};
+
     public Circle(){
 
-        addMouseListener(new MouseAdapter() {
+        Integer inte =  Integer.valueOf(0);
+
+        //Instanciando a classe MouseAdapter através de InnerMouseAdapter
+        MouseAdapter ma = new InnerMouseAdapter();
+
+
+        addMouseListener(ma=new MouseAdapter() {
             @Override
             public void mouseClicked(MouseEvent e) {
 

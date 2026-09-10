@@ -10,7 +10,8 @@ public class Ponto2d {
     private double diferenca = 0;
 
     public Ponto2d(){}
-    public Ponto2d(String nome){
+
+     public Ponto2d(String nome){
         this.nome = nome;
     }
 
@@ -19,6 +20,7 @@ public class Ponto2d {
         this.x = x;
         this.y = y;
     }
+
     public Ponto2d(String nome, Ponto2d outroPonto){
         this.nome = nome;
         this.x = outroPonto.getX();
@@ -42,18 +44,18 @@ public class Ponto2d {
         this.y = y;
     }
 
-    public void mover(double x, double y){
-        this.x = x;
-        this.y = y;
-
-    }
-
     public String getNome() {
         return nome;
     }
 
     public void setNome(String nome) {
         this.nome = nome;
+    }
+
+    public void mover(double x, double y){
+        this.x = x;
+        this.y = y;
+
     }
 
     @Override

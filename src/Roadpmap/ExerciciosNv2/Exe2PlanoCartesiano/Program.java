@@ -26,17 +26,20 @@ public class Program {
         p4 = p3.clone();
 
         Ponto2d p5 = new Ponto2d("p5", 5.0, 5.0);
+        Ponto2d p6 = new Ponto2d("p6", 5.0, 5.0);
 
         p1.calcularDistancia(p2);
         p2.calcularDistancia(p3);
         p3.calcularDistancia(p4);
         p4.calcularDistancia(p5);
+        p5.calcularDistancia(p6);
 
         pontos.add(p1);
         pontos.add(p2);
         pontos.add(p3);
         pontos.add(p4);
         pontos.add(p5);
+        pontos.add(p6);
 
         for (int i = 0; i < pontos.size(); i++){
             for (int j = i + 1; j < pontos.size(); j++){

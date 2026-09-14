@@ -14,8 +14,6 @@ public class Program {
 
         Ponto2d p2 = new Ponto2d("p2", 3.0, 2.0);
 
-
-
         p2.mover(5.0, 3.0);
 
         Ponto2d p3 = new Ponto2d("p3", p2);

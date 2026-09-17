@@ -12,7 +12,7 @@ public class Program {
 
     public static void main(String[] args) {
 
-        Scanner sc = new Scanner(System.in);
+        //Scanner sc = new Scanner(System.in);
         String caminho = "/home/gabriel.jose/Documentos";
         boolean sucess = new File(caminho + "//Product").mkdir();
 
